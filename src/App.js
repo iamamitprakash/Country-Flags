@@ -28,6 +28,7 @@ function App() {
 
   return (
     <div className="App">
+      <div><h2>COUNTRIES FLAGS</h2></div>
       <div className="flags-container">
         {error && <div className="error">{error}</div>}
         {countries.map(country => (
